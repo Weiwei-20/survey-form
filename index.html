@@ -14,9 +14,8 @@
     <form action="" class=form>
         <div class=content>
             <h1>Student Satisfaction Survey Form</h1>
-            <p>Congratulations on finishing your We Can Code IT course. To help us improve our program, please take 3
+            <p>Congratulations on finishing your We Can Code IT course. To help us improve our program, please take 5
                 minutes to fill out a survey form. Thank you!</p>
-            <br>
             <p>*required</p>
 
             <br>
@@ -25,12 +24,19 @@
             <!--</1><label for="fname">First name:</label>-->
             Enter your email:
             <input type="text" name="Email" value=""><br>
-            Enter your campus name:
-            <input type="text" name="CampusName" value=""><br>
+            Enter your campus:
+            <input type="text" name="CampusLocation" value=""><br>
             Enter your course name:
             <input type="text" name="CourseName" value=""><br>
             Tell us about your experience with WCCI:
             <textarea name="Comments" id="" cols="30" rows="10"></textarea><br>
+            How satisfied was your overall learning experience at We Can Code IT?
+            <select name="satisfaction">
+                <option value="1" selected="true">Very satisfied</option>
+                <option value="2">Satisfied</option>
+                <option value="3">Slightly satisfied</option>
+                <option value="4">Not satisfied</option>
+            </select><br>
             Would you recommend this program to a friend?
             <p>
                 <input type="radio" name="recommend" value=1>Yes
@@ -38,9 +44,9 @@
             </p>
             <!-- Please rate software development instruction and learning at We Can Code IT.
             1-10 level -->
-            We want to hear more. What part of the program teaching worked for you, what didn't work for you?
+            We want to hear more. Which part of the program teaching worked for you, which part didn't work for you?
             <textarea name="TeachingComments" id="" cols="30" rows="10"></textarea><br>
-            What language and skills do you feel comfortable using now?
+            What language and skills do you feel comfortable to use?
             <p><input type="checkbox" name="Java">Java
                 <input type="checkbox" name="Spring">Spring
                 <input type="checkbox" name="JPA">JPA
@@ -66,13 +72,8 @@
                 <input type="checkbox" name="Cover Letter">Cover Letter
                 <input type="checkbox" name="Mock Technical Interview">Mock Technical Interview
             </p>
-            How satisfied was your learning experience with We Can Code IT?
-            <p>
-                <input type="radio" name="satisfaction" value=1>Very satisfied
-                <input type="radio" name="satisfaction" value=2>Satisfied
-                <input type="radio" name="satisfaction" value=2>Slightly satisfied
-                <input type="radio" name="satisfaction" value=2>Not satisfied
-            </p><br>
+
+
             Please feel free to provide any additional comments.
             <textarea name="AdditionalComments" id="" cols="30" rows="10"></textarea><br>
             <h2>Thank you for your feedback!</h2><br><br>
