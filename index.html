@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We Can Code IT Student Satisfaction Survey</title>
+    <link rel="stylesheet" href="/layout.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <form action="" class=form>
+        <div class=content>
+            <h1>Student Satisfaction Survey Form</h1>
+            <p>Congratulations on finishing your We Can Code IT course. To help us improve our program, please take 3
+                minutes to fill out a survey form. Thank you!</p>
+            <br>
+            <p>*required</p>
+
+            <br>
+            Enter your name:
+            <input type="text" name="StudentName" value=""><br>
+            <!--</1><label for="fname">First name:</label>-->
+            Enter your email:
+            <input type="text" name="Email" value=""><br>
+            Enter your campus name:
+            <input type="text" name="CampusName" value=""><br>
+            Enter your course name:
+            <input type="text" name="CourseName" value=""><br>
+            Tell us about your experience with WCCI:
+            <textarea name="Comments" id="" cols="30" rows="10"></textarea><br>
+            Would you recommend this program to a friend?
+            <p>
+                <input type="radio" name="recommend" value=1>Yes
+                <input type="radio" name="recommend" value=2>No
+            </p>
+            <!-- Please rate software development instruction and learning at We Can Code IT.
+            1-10 level -->
+            We want to hear more. What part of the program teaching worked for you, what didn't work for you?
+            <textarea name="TeachingComments" id="" cols="30" rows="10"></textarea><br>
+            What language and skills do you feel comfortable using now?
+            <p><input type="checkbox" name="Java">Java
+                <input type="checkbox" name="Spring">Spring
+                <input type="checkbox" name="JPA">JPA
+                <input type="checkbox" name="JavaScript">JavaScript
+                <input type="checkbox" name="MVC">MVC
+                <input type="checkbox" name="HTML">HTML
+                <input type="checkbox" name="CSS">CSS
+                <input type="checkbox" name="TDD">TDD
+            </p>
+            <!--Java • Spring • Hibernate • JPA • JavaScript • MVC • HTML • CSS • Flexbox • Grid • TDD • Agile (Scrum) • Object-Oriented Programming (OOP) • AJAX • JSON • Restful APIs • Responsive Design / Mobile • Structured Query Language (SQL) • Relational Databases • Source Control / Git-->
+            <!-- Please rate career service class at We Can Code IT.
+            1-10 level -->
+            Do you feel prepared for interviews? Why or why not?
+            <textarea name="CareerComments" id="" cols="30" rows="10"></textarea><br>
+            What part of the career service do you feel most useful?
+            <p><input type="checkbox" name="OCI Chart">OCI Chart
+                <input type="checkbox" name="STAR Story Chart">STAR Story Chart
+                <input type="checkbox" name="Big Three Questions">Big Three Questions
+                <input type="checkbox" name="Resume Workshop">Resume Workshop
+                <input type="checkbox" name="LinkedIn Workshop">LinkedIn Workshop
+                <input type="checkbox" name="Informational Interview Workshop">Informational Interview Workshop
+                <input type="checkbox" name="Mock Behavioral Interview">Mock Behavioral Interview
+                <input type="checkbox" name="Cover Letter">Cover Letter
+                <input type="checkbox" name="Mock Technical Interview">Mock Technical Interview
+            </p>
+            How satisfied was your learning experience with We Can Code IT?
+            <p>
+                <input type="radio" name="satisfaction" value=1>Very satisfied
+                <input type="radio" name="satisfaction" value=2>Satisfied
+                <input type="radio" name="satisfaction" value=2>Slightly satisfied
+                <input type="radio" name="satisfaction" value=2>Not satisfied
+            </p><br>
+            Please feel free to provide any additional comments.
+            <textarea name="AdditionalComments" id="" cols="30" rows="10"></textarea><br>
+            <h2>Thank you for your feedback!</h2><br><br>
+            <input type="submit" value="submit form">
+        </div>
+    </form>
+</body>
+
+</html>
