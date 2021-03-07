@@ -14,39 +14,38 @@
     <form action="" class=form>
         <div class=content>
             <h1>Student Satisfaction Survey Form</h1>
+            <br>
             <h3>Congratulations on finishing your We Can Code IT course. To help us improve our program, please take 5
                 minutes to fill out a survey form. Thank you!</h3>
-            <p><strong>*required</strong></p>
-
             <br>
-            Enter your name:
+            <p><strong>*required</strong></p>
+            <br>
+            <label for="name"> Enter your name</label>
             <input type="text" name="StudentName" value=""><br>
-            <!--</1><label for="fname">First name:</label>-->
-            Enter your email:
+            <label for="email">Enter your email</label>
             <input type="text" name="Email" value=""><br>
-            Enter your campus:
+            <label for="location">Enter your campus</label>
             <input type="text" name="CampusLocation" value=""><br>
-            Enter your course name:
+            <label for="courseName">Enter your course name</label>
             <input type="text" name="CourseName" value=""><br>
-            Tell us about your experience with WCCI:
+            <div>Tell us about your experience with WCCI</div>
             <textarea name="Comments" id="" cols="30" rows="10"></textarea><br>
-            How satisfied was your overall learning experience at We Can Code IT?
+            <div>How satisfied was your overall learning experience at We Can Code IT?</div>
             <select class="satisfaction">
                 <option value="1" selected="true">Very satisfied</option>
                 <option value="2">Satisfied</option>
                 <option value="3">Slightly satisfied</option>
                 <option value="4">Not satisfied</option>
             </select><br>
-            Would you recommend this program to a friend?
+            <div>Would you recommend this program to a friend?</div>
             <p>
                 <input type="radio" name="recommend" value=1>Yes
                 <input type="radio" name="recommend" value=2>No
             </p>
-            <!-- Please rate software development instruction and learning at We Can Code IT.
-            1-10 level -->
-            We want to hear more. Which part of the program teaching worked for you, which part didn't work for you?
+            <div>We want to hear more. Which part of the program teaching worked for you, which part didn't work for
+                you?</div>
             <textarea name="TeachingComments" id="" cols="30" rows="10"></textarea><br>
-            What language and skills do you feel comfortable to use?
+            <div>What language and skills do you feel comfortable to use?</div>
             <p><input type="checkbox" name="Java">Java
                 <input type="checkbox" name="Spring">Spring
                 <input type="checkbox" name="JPA">JPA
@@ -56,12 +55,9 @@
                 <input type="checkbox" name="CSS">CSS
                 <input type="checkbox" name="TDD">TDD
             </p>
-            <!--Java • Spring • Hibernate • JPA • JavaScript • MVC • HTML • CSS • Flexbox • Grid • TDD • Agile (Scrum) • Object-Oriented Programming (OOP) • AJAX • JSON • Restful APIs • Responsive Design / Mobile • Structured Query Language (SQL) • Relational Databases • Source Control / Git-->
-            <!-- Please rate career service class at We Can Code IT.
-            1-10 level -->
-            Do you feel prepared for interviews? Why or why not?
+            <div>Do you feel prepared for interviews? Why or why not?</div>
             <textarea name="CareerComments" id="" cols="30" rows="10"></textarea><br>
-            What part of the career service do you feel most useful?
+            <div>What part of the career service do you feel most useful?</div>
             <p><input type="checkbox" name="OCI Chart">OCI Chart
                 <input type="checkbox" name="STAR Story Chart">STAR Story Chart
                 <input type="checkbox" name="Big Three Questions">Big Three Questions
@@ -74,7 +70,7 @@
             </p>
 
 
-            Please feel free to provide any additional comments.
+            <div>Please feel free to provide any additional comments.</div>
             <textarea name="AdditionalComments" id="" cols="30" rows="10"></textarea><br>
             <h2>Thank you for your feedback!</h2><br><br>
             <input type="submit" value="submit form">
